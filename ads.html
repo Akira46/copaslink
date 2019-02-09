@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+<link href=”https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/6.6.0/videojs.ads.css” rel=”stylesheet” type=”text/css”>
+
+</head>
+
+<body>
+
+  <video id="MY_VIDEO_1" class="video-js vjs-default-skin" controls
+ preload="auto" width="640" height="264" poster="MY_VIDEO_POSTER.jpg"
+ data-setup="{}">
+ <source src="http://boosstalive1-a.akamaihd.net/f894a6ebf56c4569bea516042afd1d55/ap-southeast-1/5664852414001/profile_0/chunklist.m3u8" type='application/x-mpegURL'>
+ <track src="Anitoki_Grand_Blue_01_720p_B0C567D2.2.ass" kind="subtitles" srclang="en" label="English" />
+ </video>
+<script src="http://vjs.zencdn.net/4.12/video.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/6.6.0/videojs.ads.js'></script>
+
+<script>
+videojs('MY_VIDEO_1', {}, function() {
+
+  var player = this;
+  player.ads(); // initialize the ad framework
+
+  // request ads whenever there's new video content
+  player.on('contentupdate', function(){
+    // fetch ad inventory asynchronously, then ...
+    player.trigger('adsready');
+  });
+
+  player.on('readyforpreroll', function() {
+    player.ads.startLinearAdMode();
+    // play your linear ad content
+    player.src('https://syndication.exdynsrv.com/splash.php?idzone=2916384');
+
+    // when all your linear ads have finished… do not confuse this with `ended`
+    player.one('adended', function() {
+      player.ads.endLinearAdMode();
+    });
+  });
+
+});
+</script>
+</script>

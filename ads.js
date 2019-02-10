@@ -48,5 +48,3 @@ if (navigator.userAgent.match(/iPhone/i) ||
 
 var wrapperDiv = document.getElementById('content_video');
 wrapperDiv.addEventListener(startEvent, initAdDisplayContainer);
-
-player.responsive(true);

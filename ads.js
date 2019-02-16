@@ -18,7 +18,7 @@ var player = videojs('content_video');
 
 var options = {
   id: 'content_video',
-  adTagUrl: 'https://www.vidcpm.com/watch.xml?key=473ba85e3a470a44d043e575b80b69f8&custom=%7B%27width%27%3A%27[WIDTH]%27%2C%27height%27%3A%27[HEIGHT]%27%7D&cb=[CACHE_BUSTERS]&vastref=[PAGE_URL]'
+  adTagUrl: 'https://syndication.exdynsrv.com/splash.php?idzone=3115954'
 };
 
 player.ima(options);

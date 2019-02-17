@@ -7,6 +7,15 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.wrap{
+	margin: 10px auto;
+	width: 950px;
+	padding: 20px;
+	color: #fff;
+	background: #35A9DB;
+	text-align: justify;
+}
+
 .info {
   background-color: #eee;
   border: thin solid #333;
@@ -37,15 +46,6 @@ body {
   float: none;
   height: 120px;
   width: 600px;
-}
-
-.wrap{
-	margin: 10px auto;
-	width: 950px;
-	padding: 20px;
-	color: #fff;
-	background: #35A9DB;
-	text-align: justify;
 }
 
 /*css3 design scrollbar*/

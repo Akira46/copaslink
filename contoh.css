@@ -39,6 +39,15 @@ body {
   width: 600px;
 }
 
+.wrap{
+	margin: 10px auto;
+	width: 950px;
+	padding: 20px;
+	color: #fff;
+	background: #35A9DB;
+	text-align: justify;
+}
+
 /*css3 design scrollbar*/
 ::-webkit-scrollbar {
     width: 10px;

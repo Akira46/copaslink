@@ -18,7 +18,7 @@ body {
 .player-container {
   background: #1a1a1a;
   overflow: scroll;
-  width: 300px;
+  width: 900px;
   margin: 0 0 20px;
 }
 
@@ -35,6 +35,6 @@ body {
 
 .vjs-playlist.vjs-playlist-horizontal {
   float: none;
-  height: 120px;
+  height: 300px;
   width: 600px;
 }

@@ -17,7 +17,7 @@ body {
 
 .player-container {
   background: #1a1a1a;
-  overflow: auto;
+  overflow: scroll;
   width: 900px;
   margin: 0 0 20px;
 }
@@ -38,10 +38,3 @@ body {
   height: 120px;
   width: 600px;
 }
-
-.scroll{
-  width: 300px;
-  background: orange;
-  padding: 10px;
-  overflow: scroll;
-  height: 300px;

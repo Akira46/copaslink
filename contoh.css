@@ -20,6 +20,7 @@ body {
   overflow: scroll;
   width: 900px;
   margin: 0 0 20px;
+  height: 300px;
 }
 
 .video-js {
@@ -35,6 +36,6 @@ body {
 
 .vjs-playlist.vjs-playlist-horizontal {
   float: none;
-  height: 300px;
+  height: 120px;
   width: 600px;
 }

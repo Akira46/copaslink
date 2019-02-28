@@ -8,14 +8,8 @@
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 13px 10px rgba(0,0,0,0.21);
   }
    
-   .vjs-playlist {
-    width: 41%;
-    height: auto;
-    padding: 0 10px;
-    background: white;
-    overflow: scroll;
-    overflow-x: hidden;
-  }
+   .vjs-playlist{padding:0;background-color:#1a1a1a;color:#fff;list-style-type:none;overflow: scroll;
+    overflow-x: hidden;}
   
     /* scroll bar configuration */
 

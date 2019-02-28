@@ -1,0 +1,70 @@
+.player-container {
+    max-width: 1200px;
+    height: 400px;
+    margin: 40px auto;
+    /* background: white; */
+    display:flex;
+    /* flex-wrap: wrap */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 13px 10px rgba(0,0,0,0.21);
+  }
+   
+   .vjs-playlist {
+    width: 41%;
+    height: auto;
+    padding: 0 10px;
+    background: white;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  
+    /* scroll bar configuration */
+
+  .vjs-playlist::-webkit-scrollbar {
+    width: 4px;
+    background-color: gray;;
+  }
+
+  .vjs-playlist::-webkit-scrollbar-thumb {
+    width: 3    px;
+    background-color:transparent;;
+  }
+
+  .vjs-playlist::-webkit-scrollbar-track {
+    width: 4px;
+    background-color: transparent;
+  }
+
+
+  media-video::-webkit-media-controls {
+    display:none !important;
+  }
+
+  
+media-video::-webkit-media-controls-overlay-enclosure {
+    display:none !important;
+}
+
+media-video::-webkit-media-controls-enclosure {
+    display:none !important;
+}
+
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+  /* 650 */
+
+  @media only screen and (max-width: 650px) {
+    .container-player {
+        flex-wrap: wrap;
+        height: auto;;
+    }
+    #mediaPlayer {
+        width: 100%;
+    }
+
+    .vjs-playlist  {
+        width: 100%;
+    }
+
+}

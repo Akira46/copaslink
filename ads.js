@@ -18,7 +18,7 @@ var player = videojs('content_video');
 
 var options = {
   id: 'content_video',
-  adTagUrl: 'https://syndication.exdynsrv.com/splash.php?idzone=3115954'
+  adTagUrl: 'https://syndication.exdynsrv.com/splash.php?idzone=2916384'
 };
 
 player.ima(options);

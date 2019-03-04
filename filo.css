@@ -28,7 +28,7 @@ body {
 	width: 41%;
     height: auto;
     padding: 0 10px;
-    position: absolute;
+    position: relative;
         top: 350px;
         width: 570px;
 		height: 200px;

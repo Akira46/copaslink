@@ -1,0 +1,5 @@
+video { height: auto; }
+
+.vjs-icon-previous-item:before, .vjs-icon-next-item:before { font-size: 2em; }
+
+/* Other characters for content: ‹‹ ❘◀️  ⏪  ⏩ ▶️❘ ›› ▶ */ 
